@@ -22,11 +22,11 @@ html {
 }
 
 body {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	max-width: 1440px;
+	display: grid;
+	
+	place-items: center;
+	
+	
     min-height: 100vh;
 	background-color: var(--color-slate-300);
 	font-family: Outfit;
